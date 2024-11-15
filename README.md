@@ -11,8 +11,9 @@ This project implements a **Contact Management System**, a mini feature of a CRM
 - **View Contacts:** Display all contacts in a paginated and sortable table.
 - **Edit Contacts:** Update contact details directly from the table.
 - **Delete Contacts:** Remove outdated or irrelevant contact entries.
+- **Search Functionality:** Search for contacts by name, email, or company to quickly find specific entries.
+- **Pagination & Sorting:** Add pagination and sorting to the table for better usability, allowing users to easily navigate through large contact lists.
 - **Validation & Error Handling:** Ensures that required fields are filled, and duplicates or invalid data are handled gracefully.
-
 ---
 
 ## 📂 Directory Structure
