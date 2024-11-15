@@ -25,8 +25,8 @@ Here are some screenshots of the application:
 ![Screenshot 4](images/image4.png )
 
 <div style="display: flex; justify-content: space-between;">
-<img src="images/image1.png" width="300" height="200" />
-<img src="images/image2.png" width="300" height="200" />
+<img src="images/image1.png" width="280" height="200" />
+<img src="images/image2.png" width="280" height="200" />
 <img src="images/image3.png" width="300" height="200" />
 </div>
 ---
