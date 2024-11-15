@@ -17,6 +17,12 @@ mongoose.connect(process.env.MONGO_URL)
 
 app.use("/contacts", contactsRoutes);
 
+app.get('/',(req,res)=>{
+  res.send({
+    msg: "Connected to Backend successfully!"
+  })
+})
+
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server running on port ${port}`));
