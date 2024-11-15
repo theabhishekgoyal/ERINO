@@ -3,7 +3,8 @@ import { Button, Table, Typography, TableHead, TableBody, TableCell, TableRow, T
 import axios from "axios";
 import ContactFormDialog from "../components/contactFormDialog";
 import ConfirmationDialog from "../components/confirmationDialog";
-const URI = "https://erino-s1ss.vercel.app/";
+// const URI = "https://erino-s1ss.vercel.app";
+const URI = 'http://localhost:5000'
 const HomePage = () => {
   const [contacts, setContacts] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
